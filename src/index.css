@@ -1,0 +1,23 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* css variables */
+:root {
+  --bg: #f9f3ee;
+  --btn: #273440;
+  --secBg: #C1bab8;
+  --panelBg: #D8d1cd;
+  --signupBtn: #1e2b38;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--btn);
+  font-family: 'Poppins', sans-serif;
+}
