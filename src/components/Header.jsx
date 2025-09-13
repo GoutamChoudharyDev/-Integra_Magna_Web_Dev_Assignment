@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const Header = () => {
+    // Use state 
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
@@ -16,7 +17,7 @@ const Header = () => {
                 onClick={() => setMenuOpen(!menuOpen)}
                 aria-label="Toggle menu"
             >
-                ☰
+                {menuOpen ? "X" : "☰"}
             </button>
 
             {/* navigation */}
